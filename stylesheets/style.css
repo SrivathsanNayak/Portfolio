@@ -1,0 +1,12 @@
+:root {
+    --base-color-primary: black;
+    --base-color-secondary: white;
+    --base-color-tertiary: green;
+}
+
+.material-icons {
+    color: var(--base-color-tertiary);
+    cursor: pointer;
+    margin: 1.5rem;
+    transform: scale(2);
+}
