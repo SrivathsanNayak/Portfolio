@@ -1,9 +1,9 @@
 :root {
     --base-color-primary-1: #222;
     --base-color-primary-2: #000;
-    --base-color-secondary-1: #e6e9f0;
-    --base-color-secondary-2: #eef1f5;
-    --base-color-tertiary: #6ECB63;
+    --base-color-secondary-1: #6ECB63;
+    --base-color-secondary-2: #0F0;
+    --base-color-secondary-3: #B1E693;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to right, var(--base-color-primary-1) 0%, var(--base-color-primary-2) 40%);
-    color: var(--base-color-tertiary);
+    color: var(--base-color-secondary-1);
 }
 
 #info, #more-info {
@@ -24,9 +24,24 @@ body {
     padding: 1.25rem 0;
 }
 
-/*#info:hover #hello, #info:hover #srivathsan, #info:hover #student, #info:hover #breakcore, #info:hover #free {
-    background-image: linear-gradient(to right, var(--base-color-secondary-1) 0%, var(--base-color-secondary-2) 40%);
-}*/
+#hello, #srivathsan, #student, #find-me{
+    animation: glow 14s infinite;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: none;
+        color: var(--base-color-secondary-1);
+    }
+    50% {
+        text-shadow: 0 0 10px var(--base-color-secondary-2);
+        color: var(--base-color-secondary-3);   
+    }
+    100% {
+        text-shadow: none;
+        color: var(--base-color-secondary-1);
+    }
+}
 
 #info h2 {
     font-size: 2.4rem;
@@ -56,14 +71,14 @@ body {
 
 a {
     font-weight: 700;
-    text-decoration: dotted underline var(--base-color-tertiary) 2px;
+    text-decoration: dotted underline var(--base-color-secondary-1) 2px;
     letter-spacing: normal;
     transition: all 0.3s linear;
 }
 
 a:visited {
     color: inherit;
-    text-decoration: solid underline var(--base-color-tertiary) 2px;
+    text-decoration: solid underline var(--base-color-secondary-1) 2px;
 }
 
 a:hover {
