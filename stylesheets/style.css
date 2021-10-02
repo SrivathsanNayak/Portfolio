@@ -20,8 +20,13 @@ body {
 
 #info h1 {
     font-size: 2.75rem;
+    font-weight: 600;
     padding: 1.25rem 0;
 }
+
+/*#info:hover #hello, #info:hover #srivathsan, #info:hover #student, #info:hover #breakcore, #info:hover #free {
+    background-image: linear-gradient(to right, var(--base-color-secondary-1) 0%, var(--base-color-secondary-2) 40%);
+}*/
 
 #info h2 {
     font-size: 2.4rem;
@@ -29,6 +34,7 @@ body {
 }
 
 #info h3 {
+    margin-top: 1rem;
     font-size: 2.25rem;
     padding: 1.25rem 0;
 }
@@ -51,8 +57,16 @@ body {
 a {
     font-weight: 700;
     text-decoration: dotted underline var(--base-color-tertiary) 2px;
+    letter-spacing: normal;
+    transition: all 0.3s linear;
 }
 
 a:visited {
     color: inherit;
+    text-decoration: solid underline var(--base-color-tertiary) 2px;
+}
+
+a:hover {
+    font-weight: 800;
+    letter-spacing: 0.1rem;
 }
