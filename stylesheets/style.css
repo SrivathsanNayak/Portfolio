@@ -69,19 +69,28 @@ body {
     padding: 1.5rem 2rem;
 }
 
-a {
+#more-info ul li a{
+    color: inherit;
+    transition: color 0.4s linear;
+}
+
+#more-info ul li a:hover{
+    color: var(--base-color-secondary-3);
+}
+
+#info a {
     font-weight: 700;
     text-decoration: dotted underline var(--base-color-secondary-1) 2px;
     letter-spacing: normal;
     transition: all 0.3s linear;
 }
 
-a:visited {
+#info a:visited {
     color: inherit;
     text-decoration: solid underline var(--base-color-secondary-1) 2px;
 }
 
-a:hover {
+#info a:hover {
     font-weight: 800;
     letter-spacing: 0.1rem;
 }
