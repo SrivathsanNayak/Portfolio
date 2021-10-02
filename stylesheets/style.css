@@ -8,12 +8,17 @@
 
 body {
     font-family: 'Epilogue', sans-serif;
-    height: 100vh;
 }
 
 main {
     display: flex;
-    height: 94vh;
+    height: 90vh;
+}
+
+footer {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1.5rem 0;
 }
 
 #info, #links {
@@ -32,18 +37,18 @@ main {
     width: 30%;
 }
 
-h1, h2, h3 {
+#info h1, h2, h3 {
     font-size: 2rem;
     padding: 1rem 0;
 }
 
-p {
+#links p {
     font-size: 2rem;
     padding: 1rem 0;
     margin-bottom: 2rem;
 }
 
-ul li {
+#links ul li {
     font-size: 1.75rem;
     padding: 1.25rem 0;
 }
