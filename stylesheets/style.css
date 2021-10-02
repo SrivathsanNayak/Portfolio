@@ -8,47 +8,42 @@
 
 body {
     font-family: 'Epilogue', sans-serif;
-}
-
-main {
-    display: flex;
-    height: 90vh;
-}
-
-footer {
-    font-size: 1.1rem;
-    text-align: center;
-    padding: 1.5rem 0;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, var(--base-color-primary-1) 0%, var(--base-color-primary-2) 40%);
+    color: var(--base-color-tertiary);
 }
 
 #info, #links {
-    padding: 4rem;
+    padding: 3rem 8rem 4rem 8rem;
 }
 
-#info {
-    background-image: linear-gradient(to right, var(--base-color-primary-1) 0%, var(--base-color-primary-2) 100%);
-    color: var(--base-color-tertiary);
-    width: 70%;
+#info h1 {
+    font-size: 2.75rem;
+    padding: 1.25rem 0;
 }
 
-#links {
-    background-image: linear-gradient(to right, var(--base-color-secondary-1) 0%, var(--base-color-secondary-2) 100%);
-    color: var(--base-color-tertiary);
-    width: 30%;
+#info h2 {
+    font-size: 2.4rem;
+    padding: 1.25rem 0;
 }
 
-#info h1, h2, h3 {
-    font-size: 2rem;
-    padding: 1rem 0;
+#info h3 {
+    font-size: 2.25rem;
+    padding: 1.25rem 0;
 }
 
 #links p {
-    font-size: 2rem;
-    padding: 1rem 0;
+    font-size: 2.25rem;
     margin-bottom: 2rem;
 }
 
+#links ul {
+    text-align: center;
+}
+
 #links ul li {
+    display: inline-block;
     font-size: 1.75rem;
-    padding: 1.25rem 0;
+    padding: 1.5rem 2rem;
 }
