@@ -14,7 +14,7 @@ body {
     color: var(--base-color-tertiary);
 }
 
-#info, #links {
+#info, #more-info {
     padding: 3rem 8rem 4rem 8rem;
 }
 
@@ -33,16 +33,16 @@ body {
     padding: 1.25rem 0;
 }
 
-#links p {
+#more-info p {
     font-size: 2.25rem;
     margin-bottom: 2rem;
 }
 
-#links ul {
+#more-info ul {
     text-align: center;
 }
 
-#links ul li {
+#more-info ul li {
     display: inline-block;
     font-size: 1.75rem;
     padding: 1.5rem 2rem;
