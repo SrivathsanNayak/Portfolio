@@ -1,5 +1,5 @@
 :root {
-    --base-color-primary-1: #434343;
+    --base-color-primary-1: #222;
     --base-color-primary-2: #000;
     --base-color-secondary-1: #e6e9f0;
     --base-color-secondary-2: #eef1f5;
@@ -7,18 +7,29 @@
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(to right, var(--base-color-secondary-1) 0%, var(--base-color-secondary-2) 100%);
     font-family: 'Epilogue', sans-serif;
+    height: 100vh;
 }
 
 main {
-    padding: 1rem 10rem;
+    display: flex;
+    height: 94vh;
+}
+
+#info, #links {
+    padding: 4rem;
 }
 
 #info {
-    margin-bottom: 2rem;
+    background-image: linear-gradient(to right, var(--base-color-primary-1) 0%, var(--base-color-primary-2) 100%);
+    color: var(--base-color-tertiary);
+    width: 70%;
+}
+
+#links {
+    background-image: linear-gradient(to right, var(--base-color-secondary-1) 0%, var(--base-color-secondary-2) 100%);
+    color: var(--base-color-tertiary);
+    width: 30%;
 }
 
 h1, h2, h3 {
@@ -29,6 +40,7 @@ h1, h2, h3 {
 p {
     font-size: 2rem;
     padding: 1rem 0;
+    margin-bottom: 2rem;
 }
 
 ul li {
