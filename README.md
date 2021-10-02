@@ -1,3 +1,5 @@
 An attempt to create a simple portfolio.
 
-Project under construction.
+It was fun.
+
+Check it out: [Portfolio](https://srivathsannayak.github.io/Portfolio/)
