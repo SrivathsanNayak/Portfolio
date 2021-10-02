@@ -1,12 +1,27 @@
 :root {
-    --base-color-primary: black;
-    --base-color-secondary: white;
+    --base-color-primary-1: #434343;
+    --base-color-primary-2: #000;
+    --base-color-secondary-1: #e6e9f0;
+    --base-color-secondary-2: #eef1f5;
     --base-color-tertiary: green;
 }
 
-.material-icons {
-    color: var(--base-color-tertiary);
-    cursor: pointer;
-    margin: 1.5rem;
-    transform: scale(2);
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, var(--base-color-secondary-1) 0%, var(--base-color-secondary-2) 100%);
+    font-family: 'Epilogue', sans-serif;
+}
+
+main {
+    padding: 1rem 10rem;
+}
+
+#info {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
 }
