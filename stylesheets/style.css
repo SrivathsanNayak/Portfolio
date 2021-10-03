@@ -6,6 +6,10 @@
     --base-color-secondary-3: #B1E693;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
     font-family: 'Epilogue', sans-serif;
     width: 100%;
@@ -14,49 +18,33 @@ body {
     color: var(--base-color-secondary-1);
 }
 
-#info, #more-info {
-    padding: 3rem 8rem 1rem 8rem;
+#info {
+    padding: 2rem 8rem;
+}
+
+#more-info {
+    padding: 1rem 8rem;
 }
 
 #info h1 {
-    font-size: 2.75rem;
+    font-size: 3rem;
     font-weight: 600;
-    padding: 1.25rem 0;
-}
-
-#hello, #srivathsan, #student, #find-me{
-    animation: glow 9s infinite;
-}
-
-@keyframes glow {
-    0% {
-        text-shadow: none;
-        color: var(--base-color-secondary-1);
-    }
-    50% {
-        text-shadow: 0 0 10px var(--base-color-secondary-2);
-        color: var(--base-color-secondary-3);   
-    }
-    100% {
-        text-shadow: none;
-        color: var(--base-color-secondary-1);
-    }
+    padding: 1rem 0;
 }
 
 #info h2 {
-    font-size: 2.4rem;
-    padding: 1.25rem 0;
+    font-size: 2.5rem;
+    padding: 1rem 0;
 }
 
 #info h3 {
-    margin-top: 1rem;
     font-size: 2.25rem;
-    padding: 1.25rem 0 0 0;
+    padding: 1rem 0;
 }
 
 #more-info p {
     font-size: 2.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 #more-info ul {
@@ -96,39 +84,52 @@ body {
     letter-spacing: 0.1rem;
 }
 
-@media screen and (max-width: 992px) {
-    #info, #more-info {
-        padding: 1rem 2rem;
+
+#hello, #srivathsan, #student, #find-me{
+    animation: glow 9s infinite;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: none;
+        color: var(--base-color-secondary-1);
     }
-    #info h1, #info h2, #info h3{
-        font-size: 2rem;
-    }    
-    #more-info p{
-        font-size: 1.75rem;
+    50% {
+        text-shadow: 0 0 10px var(--base-color-secondary-2);
+        color: var(--base-color-secondary-3);   
+    }
+    100% {
+        text-shadow: none;
+        color: var(--base-color-secondary-1);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 14px;
+    }
+    #info, #more-info {
+        padding: 1rem 6rem;
     }
 }
 
 @media screen and (max-width: 792px) {
+    html {
+        font-size: 12px;
+    }
+    #info, #more-info {
+        padding: 1rem 4rem;
+    }
     #more-info ul li {
-        font-size: 1.25rem;
-        padding: 1rem;
+        padding: 1.5rem 1.5rem;
     }
 }
 
 @media screen and (max-width: 592px) {
+    html {
+        font-size: 10px;
+    }
     #info, #more-info {
-        padding: 1rem;
-    }
-    #info h1, #info h2, #info h3{
-        font-size: 1.5rem;
-    }
-    #more-info p{
-        font-size: 1.25rem;
-    }
-    #more-info ul li{
-        font-size: 1.1rem;
-    }
-    #more-info ul li {
-        padding: 1rem 0.5rem;
+        padding: 1rem 2rem;
     }
 }
