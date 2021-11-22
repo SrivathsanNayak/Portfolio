@@ -3,7 +3,7 @@
     --base-color-primary-2: #000;
     --base-color-secondary-1: #6ECB63;
     --base-color-secondary-2: #0F0;
-    --base-color-secondary-3: #B1E693;
+    --base-color-secondary-3: #B4FE98;
 }
 
 html {
@@ -80,8 +80,7 @@ body {
 }
 
 #info a:hover {
-    font-weight: 800;
-    letter-spacing: 0.1rem;
+    font-weight: 900;
 }
 
 
