@@ -26,6 +26,10 @@ body {
     padding: 1rem 8rem;
 }
 
+#others {
+    text-align: center;
+}
+
 #info h1 {
     font-size: 3rem;
     font-weight: 600;
