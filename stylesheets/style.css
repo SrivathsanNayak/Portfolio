@@ -67,3 +67,15 @@ svg {
 svg:hover {
   fill: var(--secondary-color-3);
 }
+@media screen and (max-width: 592px) {
+    html {
+        font-size: 0.8rem;
+    }
+    #content h1 {
+        font-size: 2.5rem;
+    }
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+}
