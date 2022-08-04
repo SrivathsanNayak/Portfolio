@@ -1,17 +1,14 @@
 :root {
-  --primary-color-1: #fefbf6;
-  --primary-color-2: #1b1a17;
-  --secondary-color-1: #202020;
-  --secondary-color-2: #6ecb63;
+  --primary-color-1: #232323;
+  --primary-color-2: #F7F7F7;
+  --secondary-color-1: #EEE;
+  --secondary-color-2: #5FD068;
+  --secondary-color-3: #3EC70B;
 }
 html {
   background: var(--primary-color-1);
   color: var(--secondary-color-1);
   font-size: 1.1rem;
-}
-img {
-  width: 35px;
-  height: 35px;
 }
 #content {
   display: flex;
@@ -59,5 +56,14 @@ a {
 }
 #links ul li {
   display: inline-block;
-  padding: 0 0.8rem;
+  padding: 0 1rem;
+}
+svg {
+  width: 35px;
+  height: 35px;
+  fill: var(--secondary-color-2);
+  transition: all 0.5s linear;
+}
+svg:hover {
+  fill: var(--secondary-color-3);
 }
