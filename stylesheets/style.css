@@ -1,9 +1,9 @@
 :root {
   --primary-color-1: #232323;
-  --primary-color-2: #F7F7F7;
-  --secondary-color-1: #EEE;
-  --secondary-color-2: #5FD068;
-  --secondary-color-3: #3EC70B;
+  --primary-color-2: #f7f7f7;
+  --secondary-color-1: #eee;
+  --secondary-color-2: #5fd068;
+  --secondary-color-3: #3ec70b;
 }
 html {
   background: var(--primary-color-1);
@@ -68,14 +68,18 @@ svg:hover {
   fill: var(--secondary-color-3);
 }
 @media screen and (max-width: 592px) {
-    html {
-        font-size: 0.8rem;
-    }
-    #content h1 {
-        font-size: 2.5rem;
-    }
-    svg {
-        width: 30px;
-        height: 30px;
-    }
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    font-size: 0.8rem;
+  }
+  #content h1 {
+    font-size: 2.5rem;
+  }
+  svg {
+    width: 30px;
+    height: 30px;
+  }
 }
