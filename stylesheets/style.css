@@ -21,15 +21,15 @@ html {
 }
 h1,
 h2 {
-  font-family: "Comfortaa", Verdana, Tahoma;
+  font-family: Verdana;
   color: var(--primary-color-2);
 }
 h3,
 a {
-  font-family: "Balsamiq Sans", sans-serif;
+  font-family: Arial;
 }
 #content h1 {
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 700;
   padding: 1rem 0;
 }
